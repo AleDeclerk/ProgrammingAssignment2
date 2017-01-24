@@ -36,7 +36,7 @@ cacheSolve <- function(x, ...) {
      
   inv <- solve(m, ...)
   
-  ## look for inverse
+  ## look for inverse.
   x$setinv(inv)
   
   ## return inverse 
